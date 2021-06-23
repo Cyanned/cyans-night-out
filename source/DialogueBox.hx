@@ -17,6 +17,7 @@ class DialogueBox extends FlxSpriteGroup
 	var box:FlxSprite;
 
 	var curCharacter:String = '';
+	var curSong:String = '';
 
 	var dialogue:Alphabet;
 	var dialogueList:Array<String> = [];
@@ -529,7 +530,7 @@ class DialogueBox extends FlxSpriteGroup
 				speech.x = 625;
 				if (!portraitLeft.visible)
 				{
-					portraitLeft.visible -= true;
+					portraitLeft.visible = true;
 					portraitLeft.animation.play('Normal');
 				}
 				case 'neptune': // move this up a bit
@@ -830,6 +831,6 @@ class DialogueBox extends FlxSpriteGroup
 
 		var splitSong:Array<String> = dialogueList[0].split("|");
 		curSong = splitSong[1];
-		SSSdialogueList[0] = dialogueList[0].substr(splitSong[1].length + 2).trim();
+		dialogueList[0] = dialogueList[0].substr(splitSong[1].length + 2).trim();
 	}
 }

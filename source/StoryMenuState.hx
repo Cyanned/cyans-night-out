@@ -204,15 +204,14 @@ class StoryMenuState extends MusicBeatState
 		add(yellowBG);
 		add(grpWeekCharacters);
 
-		txtTracklist = new FlxText(FlxG.width * 0.05, yellowBG.x + yellowBG.height + 100, 0, "Tracks", 32);
+		txtTracklist = new FlxText(700, 500, 0, "Tracks", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
 		txtTracklist.color = 0x00FFFFFF;
 		add(txtTracklist);
 		// add(rankText);
 		add(scoreText);
-
-		updateText();
+		add(txtWeekTitle);
 
 		trace("Line 165");
 
@@ -390,6 +389,8 @@ class StoryMenuState extends MusicBeatState
 
 		var yellowBG:FlxSprite = new FlxSprite(-200, 50);
 
+		var stringThing:Array<String> = weekData[curWeek];
+
 		switch (curWeek)
 		{
 		  case 0:
@@ -423,26 +424,26 @@ class StoryMenuState extends MusicBeatState
 	}
 
 	function updateText()
-	{
-		grpWeekCharacters.members[0].setCharacter(weekCharacters[curWeek][0]);
-		grpWeekCharacters.members[1].setCharacter(weekCharacters[curWeek][1]);
-		grpWeekCharacters.members[2].setCharacter(weekCharacters[curWeek][2]);
-
-		txtTracklist.text = "Tracks\n";
-		var stringThing:Array<String> = weekData[curWeek];
-
-		for (i in stringThing)
-			txtTracklist.text += "\n" + i;
-
-		txtTracklist.text = txtTracklist.text.toUpperCase();
-
-		txtTracklist.screenCenter(X);
-		txtTracklist.x -= FlxG.width * 0.35;
-
-		txtTracklist.text += "\n";
-
-		#if !switch
-		intendedScore = Highscore.getWeekScore(curWeek, curDifficulty);
-		#end
+		{
+			grpWeekCharacters.members[0].setCharacter(weekCharacters[curWeek][0]);
+			grpWeekCharacters.members[1].setCharacter(weekCharacters[curWeek][1]);
+			grpWeekCharacters.members[2].setCharacter(weekCharacters[curWeek][2]);
+	
+			txtTracklist.text = "Tracks\n";
+		
+	
+			for (i in stringThing)
+				txtTracklist.text += "\n" + i;
+	
+			txtTracklist.text = txtTracklist.text.toUpperCase();
+	
+			txtTracklist.screenCenter();
+			txtTracklist.x -= FlxG.width * 0.35;
+	
+			txtTracklist.text += "\n";
+	
+			#if !switch
+			intendedScore = Highscore.getWeekScore(curWeek, curDifficulty);
+			#end
+		}
 	}
-}

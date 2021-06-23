@@ -882,30 +882,33 @@ class PlayState extends MusicBeatState
 		if (curStage == 'limo')
 			add(limo);
 		
-		if (curStage == 'school')
+		switch(curStage)
+		{
+			case 'school':
+				normal = false;
+				pixel = true;
+			case 'schoolEvil':
 			normal = false;
 			pixel = true;
-			if (curStage == 'schoolEvil')
-			normal = false;
-			pixel = true;
-			if (curStage == 'stage')
+			case 'stage':
 				normal = true;
 				pixel = false;
-				if (curStage == 'halloween')
+				case 'halloween':
 					normal = true;
 				pixel = false;
-				if (curStage == 'philly')
+				case 'philly':
 					normal = true;
 				pixel = false;
-					if (curStage == 'limo')
+					case 'limo':
 						normal = true;
 					pixel = false;
-					if (curStage == 'mall')
+					case 'mall':
 						normal = true;
 					pixel = false;
-						if (curStage == 'mallEvil')
+						case 'mallEvil':
 							normal = true;
 						pixel = false;
+		}
 
 		add(dad);
 		add(boyfriend);
@@ -2615,6 +2618,9 @@ class PlayState extends MusicBeatState
 
 	function endSong():Void
 	{
+		pixel = false;
+		normal = false; 
+
 		if (useVideo)
 			{
 				GlobalVideo.get().stop();

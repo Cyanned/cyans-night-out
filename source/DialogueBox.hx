@@ -49,64 +49,64 @@ class DialogueBox extends FlxSpriteGroup
 		{
 			case 'senpai':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'roses':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.);
 			case 'thorns':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 				case 'prologue':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);
+					FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'tutorial':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'bopeebo':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'fresh':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'dadbattle':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'spookeez':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
+				FlxG.sound.music.fadeIn(1, 0, 1);
 			case 'south':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);	
+				FlxG.sound.music.fadeIn(1, 0, 1);	
 			case 'monster':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);	
+				FlxG.sound.music.fadeIn(1, 0, 1);	
 				case 'pico':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);
+					FlxG.sound.music.fadeIn(1, 0, 1);
 				case 'philly':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);
+					FlxG.sound.music.fadeIn(1, 0, 1);
 				case 'blammed':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);
+					FlxG.sound.music.fadeIn(1, 0, 1);
 				case 'satin-panties':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);
+					FlxG.sound.music.fadeIn(1, 0, 1);
 				case 'high':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);	
+					FlxG.sound.music.fadeIn(1, 0, 1);	
 				case 'milf':
 					FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-					FlxG.sound.music.fadeIn(1, 0, 0.8);			
+					FlxG.sound.music.fadeIn(1, 0, 1);			
 					case 'cocoa':
 						FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-						FlxG.sound.music.fadeIn(1, 0, 0.8);
+						FlxG.sound.music.fadeIn(1, 0, 1);
 					case 'eggnog':
 						FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-						FlxG.sound.music.fadeIn(1, 0, 0.8);	
+						FlxG.sound.music.fadeIn(1, 0, 1);	
 					case 'winter-horrorland':
 						FlxG.sound.playMusic(Paths.music('Undertale OST 054 - Hotel'), 0);
-						FlxG.sound.music.fadeIn(1, 0, 0.8);		
+						FlxG.sound.music.fadeIn(1, 0, 1);		
 		}
 
 		bgFade = new FlxSprite(-200, -200).makeGraphic(Std.int(FlxG.width * 1.3), Std.int(FlxG.height * 1.3), 0xFFB3DFd8);
@@ -493,10 +493,7 @@ class DialogueBox extends FlxSpriteGroup
 			case 'ghostfight':
 				FlxG.sound.playMusic(Paths.music('Undertale OST 010 - Ghost Fight'), 1);
 				case 'endmusic':
-					if (FlxG.sound.music.playing)
-						{
-							FlxG.sound.music.stop();
-						}							
+							FlxG.sound.music.stop();					
 						case 'snowdin':
 							FlxG.sound.playMusic(Paths.music('Undertale OST 022 - Snowdin Town'), 1);		
 							case 'shop':
@@ -629,6 +626,7 @@ class DialogueBox extends FlxSpriteGroup
 				swagDialogue.sounds = [FlxG.sound.load(Paths.sound('boyfriendText'), 0.6)];
 				swagDialogue.color = 0xFF186EDE; 
 				speech.animation.play('bf');
+				speech.x = 100;
 				if (!portraitBf.visible)
 				{
 					portraitBf.visible = true;
@@ -642,6 +640,7 @@ class DialogueBox extends FlxSpriteGroup
 					swagDialogue.sounds = [FlxG.sound.load(Paths.sound('boyfriendText'), 0.6)];
 					swagDialogue.color = 0xFF186EDE; 
 					speech.animation.play('bf');
+					speech.x = 100;
 					if (!portraitBf.visible)
 					{
 						portraitBf.visible = true;
@@ -655,6 +654,7 @@ class DialogueBox extends FlxSpriteGroup
 						swagDialogue.sounds = [FlxG.sound.load(Paths.sound('boyfriendText'), 0.6)];
 						swagDialogue.color = 0xFF186EDE; 
 						speech.animation.play('bf');
+						speech.x = 100;
 						if (!portraitBf.visible)
 						{
 							portraitBf.visible = true;

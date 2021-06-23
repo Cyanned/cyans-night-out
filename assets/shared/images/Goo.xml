@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Goo.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="impact particles0000" x="0" y="0" width="304" height="239" frameX="0" frameY="-39" frameWidth="414" frameHeight="340"/>
+	<SubTexture name="impact particles0001" x="304" y="0" width="360" height="323" frameX="-21" frameY="-3" frameWidth="414" frameHeight="340"/>
+	<SubTexture name="impact particles0002" x="0" y="323" width="367" height="340" frameX="-47" frameY="0" frameWidth="414" frameHeight="340"/>
+	<SubTexture name="impact particles0003" x="367" y="323" width="256" height="267" frameX="-98" frameY="-59" frameWidth="414" frameHeight="340"/>
+</TextureAtlas>

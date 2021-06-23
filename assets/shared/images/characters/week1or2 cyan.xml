@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="week1or2 cyan.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf pre attack0000" x="0" y="0" width="386" height="373" frameX="0" frameY="-1" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0001" x="0" y="0" width="386" height="373" frameX="0" frameY="-1" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0002" x="386" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0003" x="386" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0004" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0005" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0006" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0007" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0008" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0009" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0010" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0011" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0012" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0013" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0014" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0015" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0016" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0017" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0018" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0019" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0020" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0021" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0022" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0023" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0024" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0025" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0026" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0027" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0028" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+	<SubTexture name="bf pre attack0029" x="768" y="0" width="382" height="374" frameX="-2" frameY="0" frameWidth="386" frameHeight="374"/>
+</TextureAtlas>

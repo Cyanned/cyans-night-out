@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NoTouch.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="avoid DOWN0000" x="1816" y="238" width="157" height="154"/>
+	<SubTexture name="avoid LEFT0000" x="0" y="476" width="155" height="157"/>
+	<SubTexture name="avoid RIGHT0000" x="155" y="476" width="155" height="157"/>
+	<SubTexture name="avoid UP0000" x="310" y="476" width="157" height="154"/>
+	<SubTexture name="avoid confirm DOWN0000" x="912" y="0" width="236" height="238"/>
+	<SubTexture name="avoid confirm DOWN0001" x="1148" y="0" width="236" height="238"/>
+	<SubTexture name="avoid confirm DOWN0002" x="1384" y="0" width="217" height="219" frameX="-6" frameY="-13" frameWidth="236" frameHeight="238"/>
+	<SubTexture name="avoid confirm DOWN0003" x="1601" y="0" width="217" height="219" frameX="-6" frameY="-13" frameWidth="236" frameHeight="238"/>
+	<SubTexture name="avoid confirm LEFT0000" x="0" y="0" width="238" height="235"/>
+	<SubTexture name="avoid confirm LEFT0001" x="238" y="0" width="238" height="235"/>
+	<SubTexture name="avoid confirm LEFT0002" x="476" y="0" width="218" height="219" frameX="-7" frameY="-11" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="avoid confirm LEFT0003" x="694" y="0" width="218" height="219" frameX="-7" frameY="-11" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="avoid confirm RIGHT0000" x="0" y="238" width="238" height="235"/>
+	<SubTexture name="avoid confirm RIGHT0001" x="238" y="238" width="238" height="235"/>
+	<SubTexture name="avoid confirm RIGHT0002" x="476" y="238" width="217" height="219" frameX="-7" frameY="-11" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="avoid confirm RIGHT0003" x="693" y="238" width="217" height="219" frameX="-7" frameY="-11" frameWidth="238" frameHeight="235"/>
+	<SubTexture name="avoid confirm UP0000" x="910" y="238" width="235" height="238"/>
+	<SubTexture name="avoid confirm UP0001" x="1145" y="238" width="235" height="238"/>
+	<SubTexture name="avoid confirm UP0002" x="1380" y="238" width="218" height="219" frameX="-5" frameY="-13" frameWidth="235" frameHeight="238"/>
+	<SubTexture name="avoid confirm UP0003" x="1598" y="238" width="218" height="219" frameX="-5" frameY="-13" frameWidth="235" frameHeight="238"/>
+	<SubTexture name="avoid hold end DOWN0000" x="467" y="476" width="50" height="64"/>
+	<SubTexture name="avoid hold end LEFT0000" x="517" y="476" width="50" height="64"/>
+	<SubTexture name="avoid hold end RIGHT0000" x="567" y="476" width="50" height="64"/>
+	<SubTexture name="avoid hold end UP0000" x="617" y="476" width="50" height="64"/>
+	<SubTexture name="avoid hold piece DOWN0000" x="667" y="476" width="50" height="44"/>
+	<SubTexture name="avoid hold piece LEFT0000" x="717" y="476" width="50" height="44"/>
+	<SubTexture name="avoid hold piece RIGHT0000" x="767" y="476" width="50" height="44"/>
+	<SubTexture name="avoid hold piece UP0000" x="817" y="476" width="50" height="44"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speech_bubble_talking.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Speech Bubble Normal Open0000" x="0" y="0" width="868" height="153" frameX="-438" frameY="-1" frameWidth="2435" frameHeight="433"/>
+	<SubTexture name="Speech Bubble Normal Open0001" x="868" y="0" width="1246" height="218" frameX="-337" frameY="-1" frameWidth="2435" frameHeight="433"/>
+	<SubTexture name="Speech Bubble Normal Open0002" x="2114" y="0" width="1551" height="272" frameX="-261" frameY="0" frameWidth="2435" frameHeight="433"/>
+	<SubTexture name="Speech Bubble Normal Open0003" x="3665" y="0" width="1984" height="348" frameX="-142" frameY="-2" frameWidth="2435" frameHeight="433"/>
+	<SubTexture name="Speech Bubble Normal Open0004" x="5649" y="0" width="2435" height="426" frameX="0" frameY="-7" frameWidth="2435" frameHeight="433"/>
+	<SubTexture name="speech bubble loud open0000" x="0" y="426" width="335" height="295" frameX="-751" frameY="-105" frameWidth="1367" frameHeight="507"/>
+	<SubTexture name="speech bubble loud open0001" x="335" y="426" width="1367" height="507"/>
+	<SubTexture name="speech bubble loud open0002" x="335" y="426" width="1367" height="507"/>
+	<SubTexture name="speech bubble normal0000" x="1702" y="426" width="2987" height="522"/>
+</TextureAtlas>

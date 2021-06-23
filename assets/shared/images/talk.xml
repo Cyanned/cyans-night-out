@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="talk.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfdizzy0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfhey0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfmiss0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfready0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfscared0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfwoah0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="bfyeah0000" x="0" y="0" width="568" height="240"/>
+	<SubTexture name="dad0000" x="568" y="0" width="568" height="240"/>
+	<SubTexture name="eye0000" x="1136" y="0" width="568" height="240"/>
+	<SubTexture name="gf0000" x="1136" y="480" width="568" height="240"/>
+	<SubTexture name="gfcry0000" x="1136" y="480" width="568" height="240"/>
+	<SubTexture name="gfduck0000" x="1136" y="480" width="568" height="240"/>
+	<SubTexture name="gffear0000" x="1136" y="480" width="568" height="240"/>
+	<SubTexture name="gfhappy0000" x="1136" y="480" width="568" height="240"/>
+	<SubTexture name="gfwink0000" x="1136" y="480" width="568" height="240"/>
+	<SubTexture name="jupiter0000" x="0" y="240" width="568" height="240"/>
+	<SubTexture name="mm0000" x="568" y="240" width="568" height="240"/>
+	<SubTexture name="neptune0000" x="1136" y="240" width="568" height="240"/>
+	<SubTexture name="pico0000" x="0" y="480" width="568" height="240"/>
+	<SubTexture name="sword0000" x="568" y="480" width="568" height="240"/>
+</TextureAtlas>

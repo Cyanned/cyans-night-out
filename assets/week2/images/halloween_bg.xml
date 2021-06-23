@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="halloween_bg.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="halloweem bg0000" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0001" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0002" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0003" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0004" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0005" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0006" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0007" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0008" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0009" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0010" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0011" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0012" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0013" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0014" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0015" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0016" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0017" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0018" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0019" x="0" y="0" width="2110" height="1313"/>
+	<SubTexture name="halloweem bg0020" x="0" y="0" width="2110" height="1313"/>
+</TextureAtlas>

@@ -34,7 +34,7 @@ class StoryMenuState extends MusicBeatState
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, false, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
@@ -52,7 +52,7 @@ class StoryMenuState extends MusicBeatState
 		"Lucky Stars",
 		"Wizarding",
 		"High Up",
-		"Date Disaster",
+		"Dyanmic Date",
 		"Double-Edged"
 	];
 
@@ -211,7 +211,6 @@ class StoryMenuState extends MusicBeatState
 		add(txtTracklist);
 		// add(rankText);
 		add(scoreText);
-		add(txtWeekTitle);
 
 		trace("Line 165");
 
@@ -407,7 +406,7 @@ class StoryMenuState extends MusicBeatState
 			yellowBG = new FlxSprite(-350, 10).loadGraphic(Paths.image('week4Banner'));
 			yellowBG.scale.set(0.80, 0.80);
 		  case 5: 
-		    yellowBG = new FlxSprite(-350, 10).loadGraphic(Paths.image('tutorialBanner'));
+		    yellowBG = new FlxSprite(-350, 10).loadGraphic(Paths.image('week5Banner'));
 			yellowBG.scale.set(0.80, 0.80);
 		  case 6: 
 			yellowBG = new FlxSprite(-350, 10).loadGraphic(Paths.image('week6Banner'));

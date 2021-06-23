@@ -1624,6 +1624,16 @@ class PlayState extends MusicBeatState
 			switch (noteTypeCheck)
 			{
 				case 'pixel':
+					normal = false;
+					pixel = true;
+				case 'normal':
+					normal = true;
+					pixel = false;
+			}
+
+			switch (noteTypeCheck)
+			{
+				case 'pixel':
 					babyArrow.loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
 					babyArrow.animation.add('green', [6]);
 					babyArrow.animation.add('red', [7]);

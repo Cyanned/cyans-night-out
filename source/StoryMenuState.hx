@@ -389,8 +389,6 @@ class StoryMenuState extends MusicBeatState
 
 		var yellowBG:FlxSprite = new FlxSprite(-200, 50);
 
-		var stringThing:Array<String> = weekData[curWeek];
-
 		switch (curWeek)
 		{
 		  case 0:
@@ -431,7 +429,8 @@ class StoryMenuState extends MusicBeatState
 	
 			txtTracklist.text = "Tracks\n";
 		
-	
+			var stringThing:Array<String> = weekData[curWeek];
+			
 			for (i in stringThing)
 				txtTracklist.text += "\n" + i;
 	

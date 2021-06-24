@@ -3575,16 +3575,12 @@ class PlayState extends MusicBeatState
 											sploosh.alpha = 0.6;
 											add(sploosh);
 											sploosh.cameras = [camHUD];
-											new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-												sploosh.kill();
-												sploosh.animation.play('note2-1');
-												new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+											new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 													sploosh.destroy();
 												sickUp = false;
 												gotSick = false;
 												gotSicklol = false;
-												});
-											});
+												});										
 									}
 								case 3:
 									if (sickRight = true)
@@ -3600,16 +3596,12 @@ class PlayState extends MusicBeatState
 											sploosh.alpha = 0.6;
 											add(sploosh);
 											sploosh.cameras = [camHUD];
-											new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-												sploosh.kill();
-												sploosh.animation.play('note3-1');
-												new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+											new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 													sploosh.destroy();
 												sickUp = false;
 												gotSick = false;
 												gotSicklol = false;
 												});
-											});
 									}
 								case 1:
 									if (sickDown = true)
@@ -3625,16 +3617,12 @@ class PlayState extends MusicBeatState
 											sploosh.alpha = 0.6;
 											add(sploosh);
 											sploosh.cameras = [camHUD];
-											new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-												sploosh.kill();
-												sploosh.animation.play('note1-1');
-												new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+											new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 													sploosh.destroy();
 												sickUp = false;
 												gotSick = false;
 												gotSicklol = false;
 												});
-											});
 									}
 								case 0:
 									if (sickLeft = true)
@@ -3650,16 +3638,12 @@ class PlayState extends MusicBeatState
 											sploosh.alpha = 0.6;
 											add(sploosh);
 											sploosh.cameras = [camHUD];
-											new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-												sploosh.kill();
-												sploosh.animation.play('nnote0-1');
-												new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+											new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 												sploosh.destroy();
 												sickUp = false;
 												gotSick = false;
 												gotSicklol = false;
 												});
-											});
 									}				
 							}
 						}
@@ -3692,19 +3676,15 @@ class PlayState extends MusicBeatState
 														}
 													splash.animation.play('noteGreen');
 													splash.cameras = [camHUD];
-													sploosh.alpha = 0.6;
+													splash.alpha = 0.6;
 													add(splash);
 													splash.cameras = [camHUD];
-													new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-														splash.kill();
-													splash.animation.play('nnote2-1');
-													new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+													new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 													splash.destroy();
 													sickUp = false;
 													gotSick = false;
 													gotSicklol = false;
 													});
-												});
 											}
 										case 3:
 											if (sickRight = true)
@@ -3717,19 +3697,15 @@ class PlayState extends MusicBeatState
 														}
 													splash.animation.play('noteRed');
 													splash.cameras = [camHUD];
-													sploosh.alpha = 0.6;
+													splash.alpha = 0.6;
 													add(splash);
 													splash.cameras = [camHUD];
-													new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-														splash.kill();
-														splash.animation.play('nnote3-1');
-														new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+													new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 														splash.destroy();
 														sickUp = false;
 														gotSick = false;
 														gotSicklol = false;
 														});
-													});
 											}
 										case 1:
 											if (sickDown = true)
@@ -3742,19 +3718,15 @@ class PlayState extends MusicBeatState
 														}
 													splash.animation.play('noteBlue');
 													splash.cameras = [camHUD];
-													sploosh.alpha = 0.6;
+													splash.alpha = 0.6;
 													add(splash);
 													splash.cameras = [camHUD];
-													new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-														splash.kill();
-														splash.animation.play('nnote1-1');
-														new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+													new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 														splash.destroy();
 														sickUp = false;
 														gotSick = false;
 														gotSicklol = false;
 														});
-													});
 												}
 										case 0:
 											if (sickLeft = true)
@@ -3767,19 +3739,15 @@ class PlayState extends MusicBeatState
 														}
 													splash.animation.play('notePurple');
 													splash.cameras = [camHUD];
-													sploosh.alpha = 0.6;
+													splash.alpha = 0.6;
 													add(splash);
 													splash.cameras = [camHUD];
-													new FlxTimer().start(0.19, function(tmr:FlxTimer) {
-														splash.kill();
-														splash.animation.play('nnote0-1');
-														new FlxTimer().start(0.19, function(tmr:FlxTimer) {
+													new FlxTimer().start(0.17, function(tmr:FlxTimer) {
 														splash.destroy();
 														sickUp = false;
 														gotSick = false;
 														gotSicklol = false;
 														});
-													});
 											}				
 									}
 								}

@@ -611,14 +611,6 @@ class DialogueBox extends FlxSpriteGroup {
 				add(swagDialogue);
 				swagDialogue.updateHitbox();
 				index++;
-			case 'haxor':
-				trace("haxor case called");
-				currentCutImage.visible = false;
-				portraitRight.visible = false;
-				if (!portraitLeft.visible) {
-					portraitLeft.visible = true;
-					portraitLeft.animation.play('enter');
-				}
 		}
 	}
 
